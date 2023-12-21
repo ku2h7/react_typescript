@@ -53,7 +53,15 @@ Buat file `src/styles/index.css` dan tambahkan pengaturan Tailwind CSS.
 
     /* Custom styles go here */
 
-**5. Import Styles di dalam File main.tsx:**
+**5. Konfigurasi tailwind.config.js**
+
+Buka file` tailwind.config.js` dan tambahkan konfigurasi berikut:
+
+    content: [
+      "./src/**/*.{js,jsx,ts,tsx}",
+    ],
+
+**6. Import Styles di dalam File main.tsx:**
 
 Buka file `src/main.tsx` dan import file `styles/index.css`.
 
@@ -71,7 +79,7 @@ Buka file `src/main.tsx` dan import file `styles/index.css`.
       document.getElementById('root')
     );
 
-**6. Gunakan Tailwind CSS dalam Komponen React:**
+**7. Gunakan Tailwind CSS dalam Komponen React:**
 
 Kamu sekarang dapat menggunakan class-class Tailwind CSS langsung dalam komponen React Kamu. Contoh:
 
