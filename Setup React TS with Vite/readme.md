@@ -47,9 +47,9 @@ Buat file `src/styles/index.css` dan tambahkan pengaturan Tailwind CSS.
 
     /* src/styles/index.css */
 
-    @tailwind 'base';
-    @tailwind 'components';
-    @tailwind 'utilities';
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
 
     /* Custom styles go here */
 
